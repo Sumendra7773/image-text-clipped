@@ -5,12 +5,16 @@ html {
 	margin: 0;
 	padding: 0;
 	background-color: black;
+	overflow-x: hidden;
 }
 
 .container {
+	padding: 20px;
+	width: 100%;
 	display: flex;
+	align-items: center;
 	flex-direction: column;
-    gap: 25px;
+	gap: 25px;
 }
 
 .one {
