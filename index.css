@@ -1,0 +1,44 @@
+body,
+html {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: black;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+    gap: 25px;
+}
+
+.one {
+	text-align: left;
+	text-decoration: solid;
+	text-transform: uppercase;
+	line-height: 0.5;
+	width: 500px;
+	height: 500px;
+	background: url(./sumendra-real2.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.two {
+	text-align: left;
+	text-decoration: solid;
+	text-transform: uppercase;
+	line-height: 0.5;
+	width: 500px;
+	height: 500px;
+	background: url(./sumendra-real3.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
